@@ -12,12 +12,11 @@ Analysis of customer behaviour, retention and lifetime value for an e-commerce c
 ## Analysis Approach
 
 ### 1. Customer Segmentation Analysis
+- Categorised customers based on total lifetime value (LTV)
+- Assigned customers to High, Mid, and Low-value segments
+- Calculated key metrics: total revenue
 
-    - Categorised customers based on total lifetime value (LTV)
-    - Assigned customers to High, Mid, and Low-value segments
-    - Calculated key metrics: total revenue
-
-Query: [1_customer_segmentation.sql](/1_customer_segmentation.sql)
+**Query:** [1_customer_segmentation.sql](/1_customer_segmentation.sql)
 
 **Visualisation:**
 
@@ -41,7 +40,7 @@ Query: [1_customer_segmentation.sql](/1_customer_segmentation.sql)
 - Cohorts were grouped by year of first purchase
 - Analysed customer retention at a cohort level
 
-Query: [2_cohort_analysis.sql](/2_cohort_analysis.sql)
+**Query:** [2_cohort_analysis.sql](/2_cohort_analysis.sql)
 
 **Visualisation:**
 
@@ -64,7 +63,7 @@ Query: [2_cohort_analysis.sql](/2_cohort_analysis.sql)
     - Analysed last purchase patterns
     - Calculated customer-specific metrics
 
-Query: [3_customer_retention.sql](/3_retention_analysis.sql)
+**Query:** [3_customer_retention.sql](/3_retention_analysis.sql)
 
 **Visualisation:**
 
@@ -99,5 +98,5 @@ Query: [3_customer_retention.sql](/3_retention_analysis.sql)
 
 ## Technical Details
 - **Database:** PostgreSQL
-- **Analysis Tools:** PostgresSQL
-- **Visualisation:** ChatGPT/Python
+- **Analysis Tools:** PostgresSQL, DBeaver, PGadmin
+- **Visualisation:** ChatGPT, Python
