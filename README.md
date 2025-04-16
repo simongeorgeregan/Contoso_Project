@@ -59,9 +59,9 @@ Analysis of customer behaviour, retention and lifetime value for an e-commerce c
 
 ### 3. Retention Analysis
 
-    - Identified customers at risk of churning
-    - Analysed last purchase patterns
-    - Calculated customer-specific metrics
+- Identified customers at risk of churning
+- Analysed last purchase patterns
+- Calculated customer-specific metrics
 
 **Query:** [3_customer_retention.sql](/3_retention_analysis.sql)
 
